@@ -16,7 +16,7 @@
 
         header {
             background-color: #4CAF50;
-            color: white;
+            color: rgb(255, 255, 255);
             text-align: center;
             padding: 1rem 0;
         }
@@ -71,10 +71,30 @@
             color: white;
             margin-top: 2rem;
         }
+        button {
+            background-color: rgb(162, 114, 114);
+            border: 1px solid #4d7b50;
+            border-radius: 8px;
+            padding: 15px;
+            width: 125px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(142, 43, 43, 0.1);
+            transition: transform 0.9s;
+        }
+        .button-card button:hover{
+            background-color: rgb(69, 123, 141);
+        }
+        .button-card:hover {
+            transform: scale(1.5);
+        }
     </style>
 </head>
 <body>
     <header>
+        <div class="button-card">
+        <button>
+            <a href="index.html">Back to Home </a></button>
+        </div>
         <h1>About Us</h1>
     </header>
     <main>
@@ -194,7 +214,7 @@
         </section>
     </main>
     <footer id="contact">
-        <p>Contact us: <a href="mailto:kizelcode@gmail.com" style="color: #0af16a;">kizelcode@gmail.com</a></p>
+        <p>Contact us: <a href="mailto:kizelcode@gmail.com" style"color: #0af16a;">kizelcode@gmail.com</a></p>
         <p>© 2024 Beigh Shawls Heritage. All rights reserved.</p>
     </footer>
 </body>
